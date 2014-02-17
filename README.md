@@ -21,12 +21,35 @@ $(document).ready(function(e) {
 ```
 
 ## Options for mRedirect##
-
-- redirect: "": this will eithier be the string added to the existing url or a new url, if new url remember to use http or https
-- addtorul: true,: this sets wether the redirect string will be added to the existing url or if it will use it as a new one
-- addtostart:true,: if addtorul is true this will add the redirect to the start of the url, set to false if you want it added to the end
-- fullsite:true,: if true the plugin will allow a query string and cookie based override of the redirect 
-- resettime: 1,: this is the number of days the redirect skip cookie will last
-- querystring:"fullsite", this is name of the redirect skip query string variable 
-- cookiename:"fullsite",  this is name of the redirect skip query cookie 
-- screensize:699,  this is maximum screen size for the redirect to fire this is window.inner 
+```JavaScript
+ redirect: ""
+```
+ this will eithier be the string added to the existing url or a new url, if new url remember to use http or https
+```JavaScript
+addtorul: true,
+```
+this sets wether the redirect string will be added to the existing url or if it will use it as a new one
+```JavaScript
+addtostart:true,
+``` 
+if addtorul is true this will add the redirect to the start of the url, set to false if you want it added to the end
+```JavaScript
+fullsite:true,
+```
+if true the plugin will allow a query string and cookie based override of the redirect 
+```JavaScript
+resettime: 1,
+```
+this is the number of days the redirect skip cookie will last
+```JavaScript
+querystring:"fullsite",
+``` 
+this is name of the redirect skip query string variable 
+```JavaScript
+cookiename:"fullsite",
+```  
+this is name of the redirect skip query cookie 
+```JavaScript
+screensize:699,
+```  
+this is maximum screen size for the redirect to fire this is window.inner 
