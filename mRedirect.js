@@ -1,6 +1,6 @@
 /*!
  * jQuery mRedirect Plugin v1.1
- * https://github.com/carhartl/jquery-cookie
+ * https://github.com/slangberg/mRedirect-Mobile-Redirect-Jquery-Plugin.git
  * http://samlangberg.com
  * Copyright 2014 Sam Langberg
  * Released under the MIT license
